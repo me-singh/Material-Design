@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:propertyName="pathData"
+    android:valueFrom="@string/path_clear"
+    android:valueTo="@string/path_check"
+    android:duration="3000"
+    android:interpolator="@android:interpolator/fast_out_slow_in"
+    tools:targetApi="lollipop"
+    android:valueType="pathType" />

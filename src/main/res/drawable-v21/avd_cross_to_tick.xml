@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_clear_black_24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <target
+        android:animation="@animator/clear_to_check"
+        android:name="cross" />
+
+    <target
+        android:animation="@animator/rotate_clear_to_check"
+        android:name="group_tick_cross" />
+
+</animated-vector>
